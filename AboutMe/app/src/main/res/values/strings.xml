@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Yuki Hirayama</string>
+    <string name="YellowStar">16dp</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+    <string name="bio">こんにちは平山です！！
+\n\nバナナが大好物です！
+\n\n納豆も好き😎
+\n\n早く一人前になりたいです！！
+\n　あとテキストのGoogle翻訳が変な感じになってるから読みにくいです😂
+        \n😏
+\n😏
+\n😏
+\n😏
+        \n😏
+\n😏
+\n😏
+\n😏
+\n😏
+\n😏
+\n😏
+\n😏
+\n😏</string>
+</resources>
