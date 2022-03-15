@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        style="@style/whiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_wide"
