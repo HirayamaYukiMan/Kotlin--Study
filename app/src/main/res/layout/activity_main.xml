@@ -32,6 +32,17 @@
         app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
 
     <TextView
+        android:id="@+id/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/how_to_play"
+        android:layout_marginStart="@dimen/margin_wide"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/box_three_text"
         style="@style/whiteBox"
         android:layout_width="0dp"
