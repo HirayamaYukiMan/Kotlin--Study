@@ -40,7 +40,17 @@
         android:layout_marginStart="@dimen/margin_wide"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="287dp"/>
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/tap_the_boxes_and_buttons"
+        app:layout_constraintStart_toEndOf="@+id/label_text"
+        tools:layout_editor_absoluteY="398dp" />
 
     <TextView
         android:id="@+id/box_three_text"
