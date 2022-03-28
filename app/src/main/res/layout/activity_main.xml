@@ -104,4 +104,28 @@
         app:layout_constraintStart_toEndOf="@+id/box_two_text"
         app:layout_constraintTop_toBottomOf="@+id/box_four_text" />
 
+    <Button
+        android:id="@+id/red_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_red"
+        app:layout_constraintBottom_toBottomOf="@+id/yellow_button"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <Button
+        android:id="@+id/yellow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_yellow"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/green_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_green"
+        app:layout_constraintBottom_toBottomOf="@+id/yellow_button"
+        tools:layout_editor_absoluteX="305dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
