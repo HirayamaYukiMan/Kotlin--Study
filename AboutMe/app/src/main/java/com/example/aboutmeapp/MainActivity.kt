@@ -43,7 +43,8 @@ class MainActivity : AppCompatActivity() {
 //        binding.nicknameText.visibility = View.VISIBLE
 
         binding.apply {
-            nicknameText.text = nicknameEdit.text.toString()
+            myName?.nickname = nicknameEdit.text.toString()
+            invalidateAll()
             nicknameEdit.visibility = View.GONE
             doneButton.visibility = View.GONE
             nicknameText.visibility = View.VISIBLE
