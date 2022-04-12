@@ -50,8 +50,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_chainStyle="packed"
-                app:srcCompat="@drawable/android_category_simple"
-                tools:ignore="ImageContrastCheck" />
+                app:srcCompat="@drawable/android_category_simple" />
 
             <TextView
                 android:id="@+id/questionText"
@@ -92,7 +91,6 @@
                     android:checked="true"
                     android:text="@{game.answers[0]}"
                     android:textSize="@dimen/answer_text_size"
-                    tools:ignore="TouchTargetSizeCheck"
                     tools:text="Blue" />
 
                 <RadioButton
@@ -102,7 +100,6 @@
                     android:layout_marginBottom="@dimen/question_vertical_margin"
                     android:text="@{game.answers[1]}"
                     android:textSize="@dimen/answer_text_size"
-                    tools:ignore="TouchTargetSizeCheck"
                     tools:text="Green" />
 
                 <RadioButton
@@ -112,7 +109,6 @@
                     android:layout_marginBottom="@dimen/question_vertical_margin"
                     android:text="@{game.answers[2]}"
                     android:textSize="@dimen/answer_text_size"
-                    tools:ignore="TouchTargetSizeCheck"
                     tools:text="Yellow" />
 
                 <RadioButton
@@ -121,7 +117,6 @@
                     android:layout_height="wrap_content"
                     android:text="@{game.answers[3]}"
                     android:textSize="@dimen/answer_text_size"
-                    tools:ignore="TouchTargetSizeCheck"
                     tools:text="Red" />
             </RadioGroup>
 
