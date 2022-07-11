@@ -1,0 +1,4 @@
+#Mon Jul 11 22:08:51 JST 2022
+base.0=/Users/hirayamayuuki/AndroidStudioProjects/Kotlin-Study/DessertClickerLogs/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
